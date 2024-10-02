@@ -1,0 +1,2 @@
+default_fqbn: esp32:esp32:ttgo-lora32
+default_port: /dev/ttyACM0
