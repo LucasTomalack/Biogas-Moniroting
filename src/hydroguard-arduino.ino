@@ -67,7 +67,7 @@ void setup() {
   );
 
   pinMode(TRS_GAS_PIN, INPUT);
-  attachInterrupt(digitalPinToInterrupt(TRS_GAS_PIN), contarBascula, FALLING);
+  //attachInterrupt(digitalPinToInterrupt(TRS_GAS_PIN), contarBascula, FALLING);
   
   ph4502c.init();
   delay(1500);
